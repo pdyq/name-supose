@@ -55,7 +55,7 @@ export const ImmigratePanel = () => {
     if (
       textarea &&
       window.confirm(
-        'Are you sure you want to override the statistics on this device? This action is not reversable.'
+        'tu i vole supa-note info-matemati en di makina o vere? tu i no kan veni baka afa.'
       )
     ) {
       var migrationStats = JSON.parse(
@@ -71,7 +71,7 @@ export const ImmigratePanel = () => {
         saveStatsToLocalStorage(migrationStats.statistics)
       }
 
-      alert('The site will now reload.')
+      alert('di neto-loke i go gen-demo.')
 
       window.location.reload()
     }
@@ -83,7 +83,7 @@ export const ImmigratePanel = () => {
         htmlFor="message"
         className="mb-2 block text-left text-sm font-medium text-gray-900 dark:text-gray-400"
       >
-        Paste your migration code:
+        note tu pota-koda:
       </label>
       <textarea
         onChange={(e) => handleImmigrationCodeChange(e)}
