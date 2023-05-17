@@ -1,3 +1,10 @@
+# name-supose
+
+I just forked this project to make this possible. I do not know how to code.
+
+The rest is going to be the same as the README in the projected I forked:
+
+
 # React Wordle
 
 This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
