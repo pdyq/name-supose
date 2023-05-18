@@ -10,7 +10,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="mi i kan ludi e ke?" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        supose name en 6 tenta. afa kada tenta, kolo de kubo i muta, 
+        supose a name en 6 tenta. afa kada tenta, kolo de kubo i muta, 
         so tu i savi a ke tu i supose o vere.
       </p>
 
@@ -54,12 +54,12 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="N" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        litera "O" no e en name.
+        litera "O" e no en name.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        a open-orijen vari de name-supose ludi ke mi-ale i savi an i
-        amo -{' '}
+        di a open-orijen vari de name-supose-ludi ke 
+        mi-ale i savi an i amo -{' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="font-bold underline"
